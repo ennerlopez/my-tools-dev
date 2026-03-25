@@ -30,8 +30,9 @@ chmod +x install-docker.sh
 sudo ./install-docker.sh
 ```
 
+**Opción 2: Ejecución directa** ⚠️ *Revisar el script en GitHub antes de ejecutar*
+
 ```bash
-# Opción 2: Ejecutar directamente (verificar el script primero)
 curl -fsSL https://raw.githubusercontent.com/ennerlopez/my-tools-dev/main/tools/install-docker/ubuntu/install.sh | sudo bash
 ```
 
