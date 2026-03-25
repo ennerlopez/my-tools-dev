@@ -18,7 +18,7 @@
 
 ```bash
 # Descargar el script
-curl -fsSL https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/tools/install-docker/ubuntu/install.sh -o install-docker.sh
+curl -fsSL https://raw.githubusercontent.com/ennerlopez/my-tools-dev/main/tools/install-docker/ubuntu/install.sh -o install-docker.sh
 
 # Revisar el script (IMPORTANTE: siempre revisa scripts antes de ejecutarlos)
 cat install-docker.sh
@@ -34,15 +34,15 @@ sudo ./install-docker.sh
 
 ```bash
 # ADVERTENCIA: Revisa el script primero en tu navegador antes de ejecutar
-curl -fsSL https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/tools/install-docker/ubuntu/install.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/ennerlopez/my-tools-dev/main/tools/install-docker/ubuntu/install.sh | sudo bash
 ```
 
 ### Opción 3: Clonar el Repositorio
 
 ```bash
 # Clonar el repositorio completo
-git clone https://github.com/YOUR_USER/YOUR_REPO.git
-cd YOUR_REPO/tools/install-docker/ubuntu
+git clone https://github.com/ennerlopez/my-tools-dev.git
+cd my-tools-dev/tools/install-docker/ubuntu
 
 # Ejecutar el script
 sudo ./install.sh

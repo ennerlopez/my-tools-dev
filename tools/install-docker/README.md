@@ -25,14 +25,14 @@ Scripts de instalación automatizada de Docker Engine siguiendo la documentació
 
 ```bash
 # Opción 1: Descargar y ejecutar
-curl -fsSL https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/tools/install-docker/ubuntu/install.sh -o install-docker.sh
+curl -fsSL https://raw.githubusercontent.com/ennerlopez/my-tools-dev/main/tools/install-docker/ubuntu/install.sh -o install-docker.sh
 chmod +x install-docker.sh
 sudo ./install-docker.sh
 ```
 
 ```bash
 # Opción 2: Ejecutar directamente (verificar el script primero)
-curl -fsSL https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/tools/install-docker/ubuntu/install.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/ennerlopez/my-tools-dev/main/tools/install-docker/ubuntu/install.sh | sudo bash
 ```
 
 📖 **[Ver instrucciones detalladas para Ubuntu →](ubuntu/README.md)**
